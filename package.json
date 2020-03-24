@@ -1,4 +1,5 @@
 {
+  "homepage": "http://alexmwaura.github.io/alexmwaura-re-novate",
   "name": "socialape-client",
   "version": "0.1.0",
   "private": true,
@@ -35,7 +36,6 @@
     "not op_mini all"
   ],
   "proxy": "https://europe-west1-socialape-150f1.cloudfunctions.net/api",
-  "homepage": "http://alexmwaura.github.io/re-novate",
   "devDependencies": {
     "gh-pages": "^2.2.0"
   }

@@ -10,11 +10,15 @@ import { connect } from 'react-redux';
 import { getScreams } from '../redux/actions/dataActions';
 
 class home extends Component {
+
   componentDidMount() {
     this.props.getScreams();
   }
   render() {
-    const { screams, loading } = this.props.data;
+    const  screams = this.props.data.screams;
+    const loading  = this.props.data.loading;
+
+    console.log(this.props.data)
     let recentScreamsMarkup = !loading ? (
       screams.map((scream) => <Scream key={scream.screamId} scream={scream} />)
     ) : (
