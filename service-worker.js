@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/re-novate/precache-manifest.924a89bcaf2a95e51abf49f0dce91fcd.js"
+  "/alexmwaura-re-novate/precache-manifest.ff162315ecc0a21cbbb255580388d672.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/re-novate/index.html", {
+workbox.routing.registerNavigationRoute("/alexmwaura-re-novate/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
